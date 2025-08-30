@@ -61,7 +61,26 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
-				}
+				},
+				// Trading specific colors
+				buy: 'hsl(var(--buy-color))',
+				sell: 'hsl(var(--sell-color))',
+				profit: 'hsl(var(--profit-color))',
+				loss: 'hsl(var(--loss-color))',
+				neutral: 'hsl(var(--neutral-color))',
+				chart: {
+					up: 'hsl(var(--chart-up))',
+					down: 'hsl(var(--chart-down))',
+					grid: 'hsl(var(--chart-grid))'
+				},
+				panel: {
+					bg: 'hsl(var(--panel-bg))',
+					border: 'hsl(var(--panel-border))'
+				},
+				hover: 'hsl(var(--hover-bg))',
+				active: 'hsl(var(--active-bg))',
+				warning: 'hsl(var(--warning))',
+				info: 'hsl(var(--info))'
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
